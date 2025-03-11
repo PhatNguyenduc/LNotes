@@ -23,7 +23,41 @@ func main () {
     <li> or import ( "package1" 
                   "package2"
                 ) </li>
-      <li>alias: import (p1 "package1") so can call func from p1 `p1.somefunc()`</li>
-      
-    
+      <li>alias: import (p1 "package1") so can call func from p1 `p1.Somefunc()`</li>
   </ol>
+  Note: hình như các hàm trong thư viện default của Go đều viết hoa
+        fmt là thư viện chủ yếu io trong Go, syntax như C viết hoa chữ đầu
+
+If the code is being used in production (users are interacting with it) then using an executable file is preferred.
+
+
+```
+ f.Println("      `.-::::::-.`")
+  f.Println("   .:-::::::::::::::-:.")
+  f.Println("  `_:::    ::    :::_`")
+  f.Println("   .:( ^   :: ^   ):.")
+  f.Println("   `:::   (..)   :::.")
+  f.Println("   `:::::::UU:::::::`")
+  f.Println("   .::::::::::::::::")
+  f.Println("   O::::::::::::::::O")
+  f.Println("   -::::::::::::::::-")
+  f.Println("   `::::::::::::::::`")
+  f.Println("   `::::::::::::::::`")
+  f.Println("      oO:::::::Oo")
+```
+
+```
+      `.-::::::-.`
+  .:-::::::::::::::-:.
+  `_:::    ::    :::_`
+   .:( ^   :: ^   ):.
+   `:::   (..)   :::.
+   `:::::::UU:::::::`
+   .::::::::::::::::.
+   O::::::::::::::::O
+   -::::::::::::::::-
+   `::::::::::::::::`
+    .::::::::::::::.
+      oO:::::::Oo
+
+```
