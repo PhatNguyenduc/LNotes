@@ -15,3 +15,15 @@ func main () {
 }
 
 ```
+
+`func` to create function 
+`import` package:
+  <ol>
+    <li>import "package 1"</li> 
+    <li> or import ( "package1" 
+                  "package2"
+                ) </li>
+      <li>alias: import (p1 "package1") so can call func from p1 `p1.somefunc()`</li>
+      
+    
+  </ol>
